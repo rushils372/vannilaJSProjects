@@ -9,189 +9,180 @@
     <title>Vanilla JavaScript Projects by RD</title>
 </head>
 
-<body>
-    <!-- navbar goes here -->
-    <nav class="bg-gray-700">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between">
+<body class="text-gray-400 bg-gray-900 body-font">
+    <!-- Header  -->
+    <header class="text-gray-400 bg-gray-800 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">JS Blocks</span>
+            </a>
+            <!-- <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white">First Link</a>
+                <a class="mr-5 hover:text-white">Second Link</a>
+                <a class="mr-5 hover:text-white">Third Link</a>
+                <a class="mr-5 hover:text-white">Fourth Link</a>
+            </nav> -->
+        </div>
+    </header>
 
-                <div class="flex space-x-4">
-                    <!-- logo -->
-                    <div>
-                        <a href="#" class="flex items-center py-5 px-2 text-white hover:text-gray-500">
-                            <svg class="h-6 w-6 mr-1 text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                            </svg>
-                            <span class="font-bold">Vanilla Projects</span>
+    <!-- Projects from here -->
+    <section class="text-gray-400 body-font bg-gray-900">
+        <div class="container px-5 py-12 mx-auto">
+
+            <!--Top Heading  -->
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Vanilla JavaScript Projects
+                    </h1>
+                    <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">These are helpful projects
+                    which can be used for learning vanilla JavaScript and can also be used as regular tools.</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+
+                <!-- Random Hex Code Generator -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="./Random Hex Color Code/Random Hex Color Code.png" alt="content">
+                        <a href="./Random Hex Color Code/index.html" target="_blank">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font py-2">CLICK FOR
+                                DEMO</h3>
                         </a>
-                    </div>
-
-                    <!-- primary nav -->
-                    <div class="hidden md:flex items-center space-x-1">
-                        <a href="#" class="py-5 px-3 text-white hover:text-gray-200">Pure</a>
-                        <a href="#" class="py-5 px-3 text-white hover:text-gray-200">API Based</a>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Random Hex Code Generator</h2>
+                        <p class="leading-relaxed text-base">This is a Random Hex Code Generator made with JavaScript,
+                            CSS and HTML. It wil help you to generate random HEX Code. To improve project, Clone it.</p>
                     </div>
                 </div>
-
-                <!-- secondary nav -->
-                <!-- <div class="hidden md:flex items-center space-x-1">
-                    <a href="" class="py-5 px-3">Login</a>
-                    <a href=""
-                        class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Signup</a>
-                </div> -->
-
-                <!-- mobile button goes here -->
-                <div class="md:hidden flex items-center">
-                    <button class="mobile-menu-button">
-                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16" />
+                <!-- Calculator -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="./Calculator/calculator.PNG" alt="content">
+                        <a href="./Calculator/index.html" target="_blank">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font py-2">CLICK FOR
+                                DEMO</h3>
+                        </a>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Calculator</h2>
+                        <p class="leading-relaxed text-base">This is a calculator made with JavaScript, CSS and HTML. It
+                            wil help you for on the go calculations on you are on computer. To improve project, Clone
+                            it.</p>
+                    </div>
+                </div>
+                <!-- Analog Clock -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="./Analog Clock/analog_png.PNG" alt="content">
+                        <a href="./Analog Clock/index.html" target="_blank">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font py-2">CLICK FOR
+                                DEMO</h3>
+                        </a>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Analog Clock</h2>
+                        <p class="leading-relaxed text-base">This is a Analog clock made with JavaScript, CSS and HTML.
+                            It wil help you to see the clock while you are on computer. To improve project, Clone it.
+                        </p>
+                    </div>
+                </div>
+                <!-- Simple Digital Clock -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="./Digital Clock/clock_img.PNG" alt="content">
+                        <a href="./Digital Clock/index.html" target="_blank">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font py-2">CLICK FOR
+                                DEMO</h3>
+                        </a>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Simple Digital Clock</h2>
+                        <p class="leading-relaxed text-base">This is a Simple Digital clock made with JavaScript, CSS
+                            and HTML. It wil help you to easily see the time in 24 hours format. To improve project,
+                            Clone it.</p>
+                    </div>
+                </div>
+                <!-- Roll the Dice -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="./Roll The Dice/dice_img.PNG" alt="content">
+                        <a href="./Roll The Dice/index.html" target="_blank">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font py-2">CLICK FOR
+                                DEMO</h3>
+                        </a>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Roll the Dice</h2>
+                        <p class="leading-relaxed text-base">This is a Roll the Dice game made with JavaScript, CSS and
+                            HTML. It wil help you to digitally dice the game. To improve project, Clone it.</p>
+                    </div>
+                </div>
+                <!-- Typing Test -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="./Typing Test/typing_test.png" alt="content">
+                        <a href="./Typing Test/index.html" target="_blank">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font py-2">CLICK FOR
+                                DEMO</h3>
+                        </a>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Typing Test</h2>
+                        <p class="leading-relaxed text-base">This is a typing test made with JavaScript, CSS and HTML.
+                            It wil help you to know your typing speed. To improve project, Clone it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        
+        <div class="bg-gray-800 bg-opacity-75">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-400 text-sm text-center sm:text-left">© 2021 JS Blocks —
+                    <a href="#" rel="noopener noreferrer" class="text-gray-500 ml-1"
+                        target="_blank">@rushils372</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                         </svg>
-                    </button>
-                </div>
-
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
             </div>
         </div>
-
-        <!-- mobile menu -->
-        <div class="mobile-menu hidden md:hidden">
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a>
-        </div>
-    </nav>
-
-    <!-- content goes here -->
-    <div class="py-6 text-center">
-        <h2 class="font-bold text-4xl">Vanilla JavaScript Projects by RD</h2>
-    </div>
-
-    <div class="pt-6 pb-12 bg-gray-300">
-        <div id="card" class="">
-            <!-- <h2 class="text-center text-4xl xl:text-5xl">Recent Projects</h2> -->
-            <!-- container for all cards -->
-
-            <!-- Calculator -->
-            <div class="container w-100 lg:w-4/5 mx-auto flex flex-col">
-               
-                <div v-for="card in cards" class="flex flex-col md:flex-row overflow-hidden
-                                              bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
-                    <!-- media -->
-                    <div class="h-64 w-auto md:w-1/2">
-                        <img class="inset-0 h-full w-full object-cover object-center"
-                            src="./Calculator/calculator.PNG" />
-                    </div>
-                    <!-- content -->
-                    <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
-                        <h3 class="font-bold text-lg leading-tight truncate">Calculator</h3>
-                        <p class="mt-2">
-                            This is a calculator made with JavaScript, CSS and HTML. It wil help you for on the go calculations on you are on computer. To improve project, Clone it.
-                        </p>
-                        <a href="./Calculator/index.html" target="_blank"><p class="text-sm text-indigo-800 uppercase tracking-wide font-bold mt-2" >
-                            Click Here for the DEMO
-                        </p></a>
-                        <p class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2">
-                            Rushil Dewaskar &bull; 11-11-2021
-                        </p>
-                    </div>
-                </div>
-                
-            </div>
-
-            <!-- Analog Clock -->
-            <div class="container w-100 lg:w-4/5 mx-auto flex flex-col">
-               
-                <div v-for="card in cards" class="flex flex-col md:flex-row overflow-hidden
-                                              bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
-                    <!-- media -->
-                    <div class="h-64 w-auto md:w-1/2">
-                        <img class="inset-0 h-full w-full object-cover object-center"
-                            src="./Analog Clock/analog_png.PNG" />
-                    </div>
-                    <!-- content -->
-                    <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
-                        <h3 class="font-bold text-lg leading-tight truncate">Analog Clock</h3>
-                        <p class="mt-2">
-                            This is a Analog clock made with JavaScript, CSS and HTML. It wil help you to see the clock while you are on computer. To improve project, Clone it.
-                        </p>
-                        <a href="./Analog Clock/index.html" target="_blank"><p class="text-sm text-indigo-800 uppercase tracking-wide font-bold mt-2" >
-                            Click Here for the DEMO
-                        </p></a>
-                        <p class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2">
-                            Rushil Dewaskar &bull; 10-11-2021
-                        </p>
-                    </div>
-                </div>
-                
-            </div>
-
-            <!-- Digital Clock Project -->
-            <div class="container w-100 lg:w-4/5 mx-auto flex flex-col">
-               
-                <div v-for="card in cards" class="flex flex-col md:flex-row overflow-hidden
-                                              bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
-                    <!-- media -->
-                    <div class="h-64 w-auto md:w-1/2">
-                        <img class="inset-0 h-full w-full object-cover object-center"
-                            src="./Digital Clock/clock_img.PNG" />
-                    </div>
-                    <!-- content -->
-                    <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
-                        <h3 class="font-bold text-lg leading-tight truncate">Simple Digital Clock </h3>
-                        <p class="mt-2">
-                            This is a Simple Digital clock made with JavaScript, CSS and HTML. It wil help you to easily see the time in 24 hours format. To improve project, Clone it.
-                        </p>
-                        <a href="./Digital Clock/index.html" target="_blank"><p class="text-sm text-indigo-800 uppercase tracking-wide font-bold mt-2" >
-                            Click Here for the DEMO
-                        </p></a>
-                        <p class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2">
-                            Rushil Dewaskar &bull; 10-11-2021
-                        </p>
-                    </div>
-                </div>
-                
-            </div>
-
-            <!-- Roll The Dice -->
-            <div class="container w-100 lg:w-4/5 mx-auto flex flex-col">
-               
-                <div v-for="card in cards" class="flex flex-col md:flex-row overflow-hidden
-                                              bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
-                    <!-- media -->
-                    <div class="h-64 w-auto md:w-1/2">
-                        <img class="inset-0 h-full w-full object-cover object-center"
-                            src="./Roll The Dice/dice_img.PNG" />
-                    </div>
-                    <!-- content -->
-                    <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
-                        <h3 class="font-bold text-lg leading-tight truncate">Roll the Dice</h3>
-                        <p class="mt-2">
-                            This is a Roll the Dice game made with JavaScript, CSS and HTML. It wil help you to digitally dice the game. To improve project, Clone it.
-                        </p>
-                        <a href="./Roll The Dice/index.html" target="_blank"><p class="text-sm text-indigo-800 uppercase tracking-wide font-bold mt-2" >
-                            Click Here for the DEMO
-                        </p></a>
-                        <p class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2">
-                            Rushil Dewaskar &bull; 10-11-2021
-                        </p>
-                    </div>
-                </div>
-                
-            </div>
-
-            
-
-            <!--/ flex-->
-        </div>
-    </div>
-
-
+    </footer>
 
     <!-- Script -->
     <script src="./index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
 </body>
 
 </html>
